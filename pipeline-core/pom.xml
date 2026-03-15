@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.dynamisassetpipeline</groupId>
+        <groupId>org.dynamisengine.assetpipeline</groupId>
         <artifactId>dynamis-asset-pipeline-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -15,17 +15,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.dynamisassetpipeline</groupId>
+            <groupId>org.dynamisengine.assetpipeline</groupId>
             <artifactId>pipeline-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.meshforge</groupId>
+            <groupId>org.dynamisengine</groupId>
             <artifactId>meshforge</artifactId>
             <version>1.1.0</version>
         </dependency>
         <dependency>
-            <groupId>org.meshforge</groupId>
+            <groupId>org.dynamisengine</groupId>
             <artifactId>meshforge-loader</artifactId>
             <version>1.1.0</version>
         </dependency>
